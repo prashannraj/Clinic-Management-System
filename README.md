@@ -21,3 +21,8 @@ Available Features:
 - User Management
 - User Role Management
 - Back up data
+
+- Install the composer dependencies: composer install
+- For the database, create a database with the name which you have to type in the env file and import the given SQL file.
+- Then generate the key: php artisan key:generate
+- And finally, run the project: php artisan serve
